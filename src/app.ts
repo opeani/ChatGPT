@@ -13,7 +13,7 @@ import { config } from "dotenv";
 config();
 
 // Constants for the server and API configuration
-const port = process.env.SERVER_PORT || 3040;
+const port = process.env.SERVER_PORT || 7860;
 const baseUrl = "https://chat.openai.com";
 const apiUrl = `${baseUrl}/backend-anon/conversation`;
 const refreshInterval = 60000; // Interval to refresh token in ms
